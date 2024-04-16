@@ -1,0 +1,11 @@
+<html>
+  <body>
+    <div>
+      <a href='{% url "home" %}'>Fave Movies</a>
+      <!-- <a href="/">Fave Movies</a> -->
+      <a href='{% url "about" %}'>About</a>
+      <!-- <a href="about">About</a> -->
+    </div>
+    {% block content %}{% endblock %}
+  </body>
+</html>
